@@ -41,6 +41,8 @@ public class CommerceAccountPortletUtil {
 			sort = SortFactoryUtil.create("name_sortable", reverse);
 		}
 
+		System.out.println("dummy");
+
 		return sort;
 	}
 
